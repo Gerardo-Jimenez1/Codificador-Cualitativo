@@ -277,7 +277,6 @@ class EtiquetadoApp:
                             "                     Derechos reservados®\n\n"
                             '         "GERARDO HERNÁNDEZ JIMÉNEZ"\n\n'
                             "  Egresado de la Licenciatura en Informática.\n\n"
-                            "        Centro Universitario UAEM Texcoco.\n\n"
                             "Universidad Autónoma del Estado de México.")
 
     def mostrar_menu_contextual_texto_original(self, event):
