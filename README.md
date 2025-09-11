@@ -19,14 +19,6 @@ Para instalar y ejecutar el código de este proyecto:
 
 ---
 
-## 💾 Descarga del software
-
-El Codificador Cualitativo está disponible listo para usar y descargar en la sección [`Releases`](https://github.com/Gerardo-Jimenez10/Codificador-Cualitativo_CodCual/releases) de este repositorio donde se encuentra:
-- **Ejecutable**
-- **Manual de usuario**
-
----
-
 ## 🤝 Cómo contribuir
 
 Si estás interesado en colaborar:
