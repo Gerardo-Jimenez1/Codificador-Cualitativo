@@ -1,0 +1,35 @@
+📌 Instrucciones de instalación y ejecución del programa
+
+1. Requisitos previos
+•	Tener instalado Python 3.9 o superior.
+•	Instalar un editor como Visual Studio Code (VS Code).
+•	Asegurarse de tener instalado pip (el gestor de paquetes de Python).
+
+2- Instalar las bibliotecas necesarias
+*Instalar dependencias externas con:
+- pip install pillow 11.1.0 , pip install nltk 3.9.1, etc.
+- Nota: La primera vez que se ejecute el programa, NLTK descargará automáticamente el recurso punkt_tab.
+
+*El programa utiliza las siguientes librerías que podra instalar desde la Terminal:
+
+pip 25.0.1
+tkinter (incluida en la instalación estándar de Python).
+pillow 11.1.0 
+pathlib 1.0.1
+textwrap (incluida en la librería estándar).
+nltk 3.9.1
+python-docx 1.1.2
+PyMuPDF 1.25.3
+pickle (incluida en la librería estándar).
+os (incluida en la librería estándar).
+
+3- Ejecución en VS Code
+.	Abrir VS Code.
+.	Ir a Archivo → Abrir carpeta… y seleccionar la carpeta donde está tu proyecto.
+.	Abrir el archivo principal (ejemplo: Interfaz_Codificador_Cualitativo.py).
+.	Seleccionar el intérprete de Python (menú inferior derecho de VS Code).
+.	Ejecutar el programa con:
+.	Oprimir F5 
+
+4 Observaciones
+• Puede utilizar los archivos de texto ubicados en la carpeta "data" como ejemplos para realizar pruebas dentro del sistema mientras está en ejecución.
