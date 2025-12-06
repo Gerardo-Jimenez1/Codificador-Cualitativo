@@ -1233,7 +1233,7 @@ class EtiquetadoApp:
     def eliminar_etiqueta(self, label_contador, boton_color, boton_resaltar, etiqueta):
         # Se solicita confirmación de seguridad al usuario antes de eliminar
         confirmacion = messagebox.askyesno("Confirmar Eliminación", 
-            f"¿Estás seguro de que deseas eliminar el código '{etiqueta}'?\n\nEsta acción eliminará todas las referencias y subrayados asociados.")
+            f"¿Estás seguro de que deseas eliminar el código '{etiqueta}'?\n\nEsta acción eliminará todas las referencias y subrayados asociados al código asignado en la interfaz.")
         if not confirmacion:
             return
 
@@ -1399,6 +1399,12 @@ class EtiquetadoApp:
                 if self.archivos_abiertos[k]["contenido"] == self.contenido: 
                     if k == nombre_actual:
                          break
+                    
+        # --- 8) Mensaje de confirmación ---
+            messagebox.showinfo(
+                "Anexación completada",
+                f"El contenido del código '{etiqueta_origen}' ha sido anexado correctamente a '{etiqueta_destino}'."
+            )
             
             # Se fuerza la recarga del archivo actual para redibujar la interfaz.
             # IMPORTANTE: Se usa guardar_antes=False porque la vista actual tiene TAGS VIEJOS.
